@@ -1,0 +1,18 @@
+{
+  "name": "@hugojosefson/hyper-dom-expressions-16",
+  "description": "Reproduction of https://github.com/ryansolid/dom-expressions/pull/16",
+  "repository": "hugojosefson/hyper-dom-expressions-16",
+  "scripts": {
+    "prepare": "npx rimraf .cache dist",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "hyper-dom-expressions": "=0.18.11",
+    "parcel": "^1.12.4",
+    "solid-js": "^0.18.9"
+  }
+}
